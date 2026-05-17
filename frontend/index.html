@@ -191,7 +191,7 @@ header{display:flex;align-items:center;justify-content:space-between;padding:18p
       <div class="sidebar-label" style="margin-bottom:12px">Settings</div>
       <div class="config-row">
         <div class="config-label">Backend URL</div>
-        <input class="config-input" type="text" id="backendUrl" value="http://localhost:8000"/>
+        <input class="config-input" type="text" id="backendUrl" value="https://nnrigaitoiyvstordwjj.supabase.co/functions/v1"/>
       </div>
       <div class="config-row">
         <div class="config-label">FAQ Mode</div>
@@ -299,11 +299,11 @@ async function sendMessage(){
   const base=document.getElementById('backendUrl').value.replace(/\/$/,'');
   try{
     if(mode==='faq'){
-      const res=await fetch(`${base}/api/faq-ask`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:text,mode:document.getElementById('faqMode').value})});
+      const res=await fetch(`${base}/faq-ask`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:text,mode:document.getElementById('faqMode').value})});
       if(!res.ok)throw new Error(`${res.status} — ${await res.text()}`);
       const d=await res.json();hideTyping();appendMsg('bot',d.answer,d.matched_faqs);
     }else{
-      const res=await fetch(`${base}/api/chat`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text,session_id:sessionId,mode:mode==='hybrid'?'faq-aware':'assistant'})});
+      const res=await fetch(`${base}/chat`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text,session_id:sessionId,mode:mode==='hybrid'?'faq-aware':'assistant'})});
       if(!res.ok)throw new Error(`${res.status} — ${await res.text()}`);
       const d=await res.json();sessionId=d.session_id;hideTyping();appendMsg('bot',d.reply);
     }
