@@ -1,0 +1,437 @@
+# faq_data/faq.yml
+# Real Estate Website — FAQ Knowledge Base
+# Categories: buying, selling, renting, loans, legal, agent
+
+faqs:
+
+  # ── BUYING ───────────────────────────────────────────────────────────────────
+
+  - id: buy-001
+    category: buying
+    tags: [buying, first-time, process, steps]
+    question: What is the step-by-step process for buying a home?
+    answer: >
+      The home buying process has 8 key steps:
+      (1) Check your credit score and finances.
+      (2) Get pre-approved for a mortgage.
+      (3) Hire a real estate agent.
+      (4) Search for properties within your budget.
+      (5) Make an offer on your chosen home.
+      (6) Get a home inspection done.
+      (7) Finalize your mortgage and paperwork.
+      (8) Close the deal and get your keys.
+      The entire process typically takes 30–90 days after finding a property.
+
+  - id: buy-002
+    category: buying
+    tags: [buying, down-payment, cost, money]
+    question: How much down payment do I need to buy a house?
+    answer: >
+      Down payment requirements vary by loan type:
+      — Conventional loans: 5%–20% of the property price.
+      — FHA loans: as low as 3.5% if your credit score is 580+.
+      — VA loans (military): 0% down payment.
+      — USDA loans (rural areas): 0% down payment.
+      For example, on a ₹50 lakh property, a 10% down payment would be ₹5 lakhs.
+      A higher down payment reduces your monthly EMI and total interest paid.
+
+  - id: buy-003
+    category: buying
+    tags: [buying, inspection, check, property]
+    question: What should I check before buying a property?
+    answer: >
+      Before buying, always verify:
+      — Legal title: Ensure the seller has clear ownership (check title deed).
+      — Encumbrance certificate: Confirms no loans or disputes on the property.
+      — Building approvals: Municipality-approved construction plan.
+      — RERA registration: Project must be registered under RERA.
+      — Physical inspection: Check walls, roof, plumbing, electrical wiring.
+      — Society dues: Confirm no pending maintenance dues.
+      — Location: Proximity to schools, hospitals, transport, and market.
+
+  - id: buy-004
+    category: buying
+    tags: [buying, negotiation, price, offer]
+    question: How do I negotiate the best price when buying a property?
+    answer: >
+      Tips for successful price negotiation:
+      — Research comparable properties in the same area (market value).
+      — Point out any repairs or issues found during inspection.
+      — Know how long the property has been listed — longer = more room to negotiate.
+      — Start your offer 10–15% below the asking price.
+      — Ask for extras: parking, fixtures, furnishings.
+      — Get pre-approved for a loan — sellers prefer serious buyers.
+      — Be ready to walk away — it gives you negotiating power.
+
+  - id: buy-005
+    category: buying
+    tags: [buying, ready-to-move, under-construction]
+    question: Should I buy a ready-to-move-in property or under-construction?
+    answer: >
+      Ready-to-move-in advantages:
+      — You can see exactly what you're getting.
+      — No waiting period — move in immediately.
+      — GST is not applicable (saves money).
+      — Rental income possible right away.
+
+      Under-construction advantages:
+      — Usually 20–30% cheaper than ready properties.
+      — More time to arrange funds.
+      — Can be customised in some cases.
+      — Higher appreciation potential by possession time.
+
+      Risk of under-construction: project delays. Always buy from RERA-registered builders.
+
+  # ── SELLING ──────────────────────────────────────────────────────────────────
+
+  - id: sell-001
+    category: selling
+    tags: [selling, process, steps, how]
+    question: What is the process for selling my property?
+    answer: >
+      Selling a property involves these steps:
+      (1) Get your property valued by a professional.
+      (2) Gather documents: title deed, tax receipts, NOC, encumbrance certificate.
+      (3) List your property on portals or through an agent.
+      (4) Schedule site visits for interested buyers.
+      (5) Negotiate and accept an offer.
+      (6) Sign a sale agreement and collect token advance.
+      (7) Complete legal due diligence.
+      (8) Register the sale deed at the sub-registrar office.
+      The process typically takes 1–3 months.
+
+  - id: sell-002
+    category: selling
+    tags: [selling, price, valuation, worth]
+    question: How do I know the right price to sell my property at?
+    answer: >
+      To find the right selling price:
+      — Check recent sale prices of similar properties in your area (circle rate).
+      — Use online property portals (MagicBricks, 99acres, Housing.com) for comparison.
+      — Get a professional valuation from a certified valuer.
+      — Check the government guidance value / circle rate in your city.
+      — Factor in unique features: floor, view, renovation, parking.
+      Pricing 5–10% above your expected price gives room to negotiate.
+
+  - id: sell-003
+    category: selling
+    tags: [selling, tax, capital-gains, profit]
+    question: Do I have to pay tax on the profit from selling my property?
+    answer: >
+      Yes. Capital Gains Tax applies on property sale profit:
+      — Short-term capital gains (held < 2 years): taxed at your income tax slab rate.
+      — Long-term capital gains (held > 2 years): taxed at 20% with indexation benefit.
+      Tax-saving options:
+      — Invest profit in another residential property within 2 years (Section 54).
+      — Invest in capital gain bonds (Section 54EC) within 6 months.
+      — Invest in CGAS (Capital Gains Account Scheme) to save time.
+      Consult a CA for exact tax calculation based on your situation.
+
+  - id: sell-004
+    category: selling
+    tags: [selling, documents, paperwork, required]
+    question: What documents do I need to sell my property?
+    answer: >
+      Essential documents for selling:
+      — Original title deed / sale deed.
+      — Encumbrance certificate (last 15–30 years).
+      — Property tax receipts (up to date).
+      — Society NOC (No Objection Certificate).
+      — Building approval plan.
+      — Completion certificate (for new buildings).
+      — Identity proof and PAN card of seller.
+      — Khata certificate (in some states).
+      — Loan closure certificate (if property had a loan).
+      Keep originals ready — buyers and banks will verify these.
+
+  - id: sell-005
+    category: selling
+    tags: [selling, tips, faster, quick]
+    question: How can I sell my property faster?
+    answer: >
+      Tips to sell your property quickly:
+      — Price it correctly from the start — overpriced properties sit unsold.
+      — Invest in good photos (hire a photographer).
+      — Declutter and clean before every visit.
+      — Fix minor repairs: leaking taps, broken tiles, fresh paint.
+      — List on multiple platforms: MagicBricks, 99acres, NoBroker, Housing.com.
+      — Hire an experienced local real estate agent.
+      — Be flexible on visit timings for buyers.
+      — Offer incentives: include parking, fittings, or flexible payment.
+
+  # ── RENTING ──────────────────────────────────────────────────────────────────
+
+  - id: rent-001
+    category: renting
+    tags: [renting, agreement, lease, contract]
+    question: What should a rental agreement include?
+    answer: >
+      A proper rental agreement must include:
+      — Names and addresses of landlord and tenant.
+      — Property address and description.
+      — Monthly rent amount and due date.
+      — Security deposit amount and refund terms.
+      — Lease duration (11 months is standard to avoid registration).
+      — Maintenance responsibilities (who pays for what).
+      — Rules on subletting, pets, modifications.
+      — Notice period for vacating (usually 1–2 months).
+      — Penalty clauses for late payment or early exit.
+      Always get the agreement printed on stamp paper and signed by both parties.
+
+  - id: rent-002
+    category: renting
+    tags: [renting, deposit, security, refund]
+    question: How much security deposit is normal and when do I get it back?
+    answer: >
+      Security deposit norms vary by city:
+      — Most cities: 1–3 months rent.
+      — Bangalore: up to 10 months rent (very high — negotiate).
+      — Mumbai: 2–3 months rent.
+      — Delhi NCR: 2–3 months rent.
+      Refund timeline: typically within 15–30 days of vacating,
+      after deducting any unpaid dues or repair costs.
+      Always get a receipt for your deposit and document the property
+      condition (photos/video) when moving in.
+
+  - id: rent-003
+    category: renting
+    tags: [renting, tenant, rights, eviction]
+    question: What are my rights as a tenant?
+    answer: >
+      As a tenant you have the right to:
+      — Peaceful enjoyment of the property without landlord interference.
+      — Advance notice before landlord visits (usually 24 hours).
+      — Essential services: water, electricity cannot be cut without legal process.
+      — Security deposit refund after vacating.
+      — Proper notice period before eviction (as per agreement).
+      — Receipt for every rent payment.
+      The landlord cannot evict you without following legal due process,
+      even if rent is unpaid — they must go through the court/rent tribunal.
+
+  - id: rent-004
+    category: renting
+    tags: [renting, increase, rent-hike, landlord]
+    question: Can my landlord increase the rent anytime?
+    answer: >
+      Rent can only be increased as per the rental agreement terms.
+      Typically:
+      — Annual increase of 5–10% is standard practice.
+      — Increase can only happen at lease renewal (end of 11-month period).
+      — Landlord must give advance notice (usually 1–2 months).
+      — Sudden or mid-lease rent hikes are not legally valid.
+      If you're on a registered long-term lease, increases are bound by
+      the terms in the registered agreement. Check your state's Rent
+      Control Act for specific protections.
+
+  # ── HOME LOANS ───────────────────────────────────────────────────────────────
+
+  - id: loan-001
+    category: loans
+    tags: [loan, home-loan, eligibility, qualify]
+    question: How much home loan am I eligible for?
+    answer: >
+      Home loan eligibility is generally calculated as:
+      — Banks offer 60–80 times your monthly salary as loan amount.
+      — Example: Monthly salary ₹50,000 → eligible for ₹30–40 lakh loan.
+      — Maximum EMI should not exceed 40–50% of your monthly income.
+      Key factors affecting eligibility:
+      — Credit score (750+ is ideal).
+      — Age (younger = longer tenure = higher eligibility).
+      — Existing EMIs and debts.
+      — Employment stability (salaried vs self-employed).
+      — Property value and location.
+      Use online EMI calculators or visit a bank for exact figures.
+
+  - id: loan-002
+    category: loans
+    tags: [loan, interest-rate, fixed, floating]
+    question: Should I choose a fixed or floating interest rate for my home loan?
+    answer: >
+      Fixed rate: EMI stays the same throughout the loan tenure.
+      — Good when you expect rates to rise.
+      — Slightly higher rate than floating (0.5–1% more).
+      — Gives predictability and peace of mind.
+
+      Floating rate: EMI changes with market interest rates (RBI repo rate).
+      — Currently more popular in India.
+      — Can decrease when RBI cuts rates.
+      — Risk: EMI can increase if rates rise.
+
+      Recommendation: If rates are low and likely to rise, go fixed.
+      If rates are high or expected to fall, go floating.
+      Most buyers in India prefer floating rate loans.
+
+  - id: loan-003
+    category: loans
+    tags: [loan, documents, required, application]
+    question: What documents are required to apply for a home loan?
+    answer: >
+      Documents required for home loan application:
+      For salaried individuals:
+      — Last 3 months salary slips.
+      — Last 2 years Form 16 / ITR.
+      — Last 6 months bank statements.
+      — Employment letter / ID card.
+
+      For self-employed:
+      — Last 3 years ITR with computation.
+      — Last 3 years profit & loss statement and balance sheet.
+      — Business registration certificate.
+      — Last 12 months bank statements.
+
+      Common for all:
+      — PAN card and Aadhaar card.
+      — Passport-size photographs.
+      — Property documents (after finalization).
+
+  - id: loan-004
+    category: loans
+    tags: [loan, prepayment, foreclose, early]
+    question: Can I repay my home loan early and are there any charges?
+    answer: >
+      Yes, you can prepay your home loan anytime. Rules:
+      — Floating rate loans: RBI guidelines prohibit prepayment penalties
+        for individual borrowers. Prepayment is FREE.
+      — Fixed rate loans: Banks may charge 2–3% of the prepaid amount.
+      Benefits of prepayment:
+      — Saves significant interest over the loan tenure.
+      — Reduces loan burden.
+      — Improves your credit score.
+      Even partial prepayments (part-payment) help reduce the principal
+      and save interest. Recommended to prepay whenever you have surplus funds.
+
+  # ── LEGAL ────────────────────────────────────────────────────────────────────
+
+  - id: legal-001
+    category: legal
+    tags: [legal, rera, registration, builder]
+    question: What is RERA and why is it important?
+    answer: >
+      RERA stands for Real Estate Regulatory Authority.
+      It is a government body that regulates the real estate sector in India.
+      Why it matters to buyers:
+      — Every new project must be RERA-registered before selling.
+      — Builder must deliver the project on time or pay compensation.
+      — Builder must deposit 70% of collected funds in an escrow account.
+      — Buyers can file complaints against builders on the RERA portal.
+      — All project details (approvals, timelines, layout) must be disclosed.
+      Always verify RERA registration before booking any under-construction property.
+      Check at: rera.maharashtra.gov.in (or your state's RERA portal).
+
+  - id: legal-002
+    category: legal
+    tags: [legal, stamp-duty, registration, charges]
+    question: What is stamp duty and registration charge?
+    answer: >
+      Stamp duty is a government tax paid when registering a property.
+      It varies by state:
+      — Maharashtra: 5% (men), 4% (women) of property value.
+      — Delhi: 6% (men), 4% (women).
+      — Karnataka: 5.6%.
+      — Tamil Nadu: 7%.
+      Registration charge: usually 1% of property value (max ₹30,000 in some states).
+      These are mandatory one-time costs paid at the time of sale deed registration.
+      Example: ₹50 lakh property in Maharashtra = ₹2.5 lakh stamp duty + ₹30,000 registration.
+      Factor these costs into your total budget when buying.
+
+  - id: legal-003
+    category: legal
+    tags: [legal, power-of-attorney, poa, nri]
+    question: Can someone else buy or sell property on my behalf using Power of Attorney?
+    answer: >
+      Yes. A Power of Attorney (POA) allows a trusted person to handle
+      property transactions on your behalf.
+      Types:
+      — General POA: Broad authority for all transactions.
+      — Special POA: Limited to one specific transaction.
+      Important rules:
+      — POA must be executed on stamp paper and notarized.
+      — For NRIs: POA must be attested at the Indian Embassy/Consulate.
+      — POA holder cannot sell property to themselves.
+      — Registered POA is safer and more legally enforceable.
+      NRIs commonly use POA for property transactions in India.
+      Always consult a lawyer before creating a POA.
+
+  # ── AGENT / SERVICE ──────────────────────────────────────────────────────────
+
+  - id: agent-001
+    category: agent
+    tags: [agent, broker, commission, fee]
+    question: How much commission does a real estate agent charge?
+    answer: >
+      Standard real estate agent commission in India:
+      — Purchase/Sale: 1–2% of the property value (paid by both buyer and seller).
+      — Rental: Usually 1 month's rent (split between landlord and tenant).
+      — Some agents charge a flat fee for specific services.
+      Example: On a ₹60 lakh property, 1% commission = ₹60,000 from each side.
+      Tips:
+      — Commission is negotiable — especially for high-value properties.
+      — Get the commission terms in writing before engaging an agent.
+      — Verify the agent's RERA registration number.
+
+  - id: agent-002
+    category: agent
+    tags: [agent, find, choose, good]
+    question: How do I find a good and trustworthy real estate agent?
+    answer: >
+      Tips to find a reliable real estate agent:
+      — Ask for referrals from friends, family, or colleagues.
+      — Check online reviews on Google, Housing.com, MagicBricks.
+      — Verify their RERA agent registration number.
+      — Choose someone with strong local area knowledge.
+      — Test their responsiveness — do they answer calls quickly?
+      — Ask how many deals they've closed in the last 6 months.
+      — Avoid agents who pressure you to make quick decisions.
+      — Get all terms (commission, services) in writing.
+      A good agent saves you time, negotiates better prices, and
+      handles paperwork smoothly.
+
+  - id: agent-003
+    category: agent
+    tags: [agent, nri, overseas, abroad]
+    question: Can NRIs buy property in India and how can you help?
+    answer: >
+      Yes, NRIs (Non-Resident Indians) can buy residential and commercial
+      property in India (except agricultural land).
+      Key points for NRIs:
+      — Payment must come from NRE/NRO/FCNR bank accounts or via inward remittance.
+      — Home loans are available from Indian banks for NRIs.
+      — Power of Attorney can be given to a trusted person for transactions.
+      — TDS of 20% is deducted on property sale by NRIs.
+      — FEMA guidelines must be followed for fund transfer.
+      We assist NRI clients with:
+      — Virtual property tours.
+      — End-to-end documentation.
+      — POA assistance.
+      — Coordination with lawyers and banks.
+      Contact us for a dedicated NRI property consultation.
+
+  - id: agent-004
+    category: agent
+    tags: [contact, appointment, visit, consultation]
+    question: How do I schedule a property visit or consultation?
+    answer: >
+      Scheduling with us is simple:
+      — Call us: Our team is available Monday–Saturday, 9 AM to 7 PM.
+      — WhatsApp: Send us a message anytime and we'll respond within 2 hours.
+      — Online form: Fill the contact form on our website and we'll call you back.
+      — Virtual tour: For outstation or NRI clients, we offer video walkthroughs.
+      For property visits, please give us 24 hours notice so we can
+      coordinate with the seller/landlord and prepare all details for you.
+      Consultation is FREE — no commitment required.
+
+  - id: agent-005
+    category: agent
+    tags: [vastu, direction, east-facing, north-facing]
+    question: Which property direction is best as per Vastu Shastra?
+    answer: >
+      Vastu guidelines for property direction:
+      — North-facing: Excellent. Associated with wealth and prosperity (Lord Kubera).
+      — East-facing: Very good. Brings positive energy and morning sunlight.
+      — North-east facing: Best of all directions. Ideal for main entrance.
+      — South-facing: Generally avoided but can be made Vastu-compliant.
+      — West-facing: Acceptable for certain professions and families.
+
+      Practical note: Vastu compliance depends on interior layout, not just direction.
+      A good architect can make any direction Vastu-friendly.
+      We can connect you with a Vastu consultant if needed.
